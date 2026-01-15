@@ -1,0 +1,34 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: #000;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100vw;
+  max-height: 100vh;
+}
+
+#video-center {
+  max-width: 60vw;
+  max-height: 80vh;
+  display: block;
+}
+
+.side-image {
+  max-height: 60vh;
+  max-width: 15vw;
+  object-fit: contain;
+  margin: 0 2vw;
+}
