@@ -6,19 +6,165 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="styles.css" />
 </head>
-<body>
-  <div class="video-container">
-    <img src="leito.png" alt="Leito" class="side-image" />
-    <video
-      id="video-center"
-      src="ukelele1768433456.mov"
-      loop
-      autoplay
-      playsinline
-      controls
-    ></video>
-    <img src="papamoya.png" alt="Papá Moya" class="side-image" />
-  </div>
+<body id="top">
+  <header class="navbar">
+    <div class="navbar-brand">Leito Moyanelson</div>
+    <nav class="navbar-links">
+      <a href="#top">Video</a>
+      <a href="#datos">Familia Moyano</a>
+    </nav>
+  </header>
+
+  <main class="main-layout">
+    <section id="video-section" class="hero">
+      <div class="hero-text">
+        <h1>Leito Moyano || Bzrp Ladridos Sessions #67/67</h1>
+        <p>Ladridos, Moyanos y buena vibra en una sola pantalla.</p>
+      </div>
+
+      <div class="video-frame">
+        <div class="video-container">
+          <div class="side-image-wrapper side-image-left">
+            <img src="leito.png" alt="Leito" class="side-image side-image-base" />
+            <img src="leitocolor.png" alt="Leito color" class="side-image side-image-color" />
+          </div>
+          <div class="video-wrapper">
+            <video
+              id="video-center"
+              src="ukelele1768433456.mov"
+              loop
+              autoplay
+              playsinline
+              controls
+            ></video>
+          </div>
+          <div class="side-image-wrapper side-image-right">
+            <img src="papamoya.png" alt="Papá Moya" class="side-image side-image-base" />
+            <img src="papamoyacolor.png" alt="Papá Moya color" class="side-image side-image-color" />
+          </div>
+        </div>
+      </div>
+
+      <div class="controls-row">
+        <button id="btn-play-pause" class="primary-button">Play</button>
+        <button id="btn-mute-toggle" class="secondary-button">Silenciar</button>
+      </div>
+    </section>
+
+    <section id="datos" class="datos-section">
+      <h2>Moyanos Masculinos</h2>
+
+      <div class="datos-row">
+        <div class="datos-content">
+          <div class="datos-image">
+            <img src="leito.png" alt="Leito" />
+          </div>
+          <div class="datos-text">
+            <h3>Leito Moyano</h3>
+            <p>
+              [›››] Información Personal:<br />
+              - Nombre(s): Leandro Joaquin<br />
+              - Apellido(s): Moyano<br />
+              - DNI: 51535441<br />
+              - CUIL: -<br />
+              - Trámite: 00710407040<br />
+              - Ejemplar: -<br />
+              - Fecha de Emisión: No disponible<br />
+              - Fecha de Vencimiento: No disponible<br />
+              - ID Ciudadano: 710407040<br />
+              - Sexo: M<br />
+              - País: ARGENTINA<br />
+              - Estado: Sin aviso de fallecimiento
+            </p>
+          </div>
+        </div>
+
+        <div class="datos-content">
+          <div class="datos-image">
+            <img src="papamoya.png" alt="Papa Moya" />
+          </div>
+          <div class="datos-text">
+            <h3>Papa Moya</h3>
+            <p>
+              [›››] Información Personal:<br />
+              - Nombre(s): Miguel Alberto<br />
+              - Apellido(s): Moyano<br />
+              - DNI: 21392144<br />
+              - CUIL: -<br />
+              - Trámite: 0080285141<br />
+              - Ejemplar: -<br />
+              - Fecha de Emisión: No disponible<br />
+              - Fecha de Vencimiento: No disponible<br />
+              - ID Ciudadano: 80285141<br />
+              - Sexo: M<br />
+              - País: ARGENTINA<br />
+              - Estado: Sin aviso de fallecimiento
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="datos-mujeres" class="datos-section">
+      <h2>Moyanas Femeninas</h2>
+
+      <div class="datos-row">
+        <div class="datos-content">
+          <div class="datos-image">
+            <img src="hermanamoya.png" alt="Hermana Moya" />
+          </div>
+          <div class="datos-text">
+            <h3>Hermana Moya</h3>
+            <p>
+              [›››] Información Personal:<br />
+              - Nombre(s): Milagros Ema<br />
+              - Apellido(s): Moyano<br />
+              - DNI: 44791035<br />
+              - CUIL: -<br />
+              - Trámite: 00No disponible<br />
+              - Ejemplar: -<br />
+              - Fecha de Emisión: No disponible<br />
+              - Fecha de Vencimiento: No disponible<br />
+              - ID Ciudadano: No disponible<br />
+              - Sexo: F<br />
+              - País: ARGENTINA<br />
+              - Estado: Sin aviso de fallecimiento
+            </p>
+          </div>
+        </div>
+
+        <div class="datos-content">
+          <div class="datos-image">
+            <img src="mamamoya.png" alt="Mama Moya" />
+          </div>
+          <div class="datos-text">
+            <h3>Mama Moya</h3>
+            <p>
+              [›››] Información Personal:<br />
+              - Nombre(s): Maria Lorena<br />
+              - Apellido(s): Nicola<br />
+              - DNI: 26882469<br />
+              - CUIL: -<br />
+              - Trámite: 0080285666<br />
+              - Ejemplar: -<br />
+              - Fecha de Emisión: No disponible<br />
+              - Fecha de Vencimiento: No disponible<br />
+              - ID Ciudadano: 80285666<br />
+              - Sexo: F<br />
+              - País: ARGENTINA<br />
+              - Estado: Sin aviso de fallecimiento
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Hecho con cariño para mi amigo leito!! Shout Out para Yair, Seguis vos!!</p>
+  </footer>
+
+  <a href="#top" class="back-to-top">↑</a>
 
   <script src="script.js"></script>
 </body>
